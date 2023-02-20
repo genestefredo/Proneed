@@ -1,14 +1,16 @@
   /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&family=Rock+Salt&display=swap');
-
+body{
+  font-family:'rock salt', 'Geneva', sans-serif ;
+  background-color: #1b8e1be1;
+}
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #396E94   ;
   --secondary-color: #E7C24F ;
   --accent1-color: #A42212;
-  --accent2-color: white;
+  --accent2-color: rgb(255, 255, 255);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "rock salt";
@@ -32,9 +34,11 @@ Fonts are separated by a & */
 body {
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em;
+  padding: 0em;
   font-size: 18px;
   text-align: center;
+  background-color: #3aa09713;
+  font-family: Raleway, Arial, sans-serif;
 }
 img {
   display: block;
@@ -47,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -110,7 +115,7 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 35px;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -161,4 +166,33 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+.home-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+}
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+img{
+  padding-top: 5px; 
+}
+.book, .join {
+
+ padding: 15px 30px;
+}
+.icon  {
+   padding-top: 10px;
+}
+.msg  {
+
+padding: 35px;}
+.msg p  {
+padding-bottom: 15px;
+}
+footer  {
+   padding: 25px 50px;}
+footer .social img { 
+   padding-top: 15px;
 }
